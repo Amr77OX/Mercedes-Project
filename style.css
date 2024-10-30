@@ -1,0 +1,61 @@
+.nav {
+  color: black;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: gray;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  color: white;
+}
+
+.txt {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.btn {
+  font-size: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: rgb(237, 235, 235);
+}
+
+.no-border-radius {
+  border-radius: 0 !important;
+}
+
+#btnSubmit {
+  appearance: none;
+  border: none;
+  background-color: rgb(160, 3, 3);
+  margin-left: 20px;
+  padding: 16px 40px;
+  color: white;
+  border-radius: 10px;
+}
